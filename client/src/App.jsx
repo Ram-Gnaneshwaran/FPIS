@@ -1,25 +1,25 @@
 import { Link } from "react-router-dom"
+import CustomerButton from "./components/Button1"
+import RetailerButton from "./components/Button2"
 
 
 function App() {
   
   return (
     <>
-    <div className="logo">
-      <h1 className="text-3xl font-bold underline">
-      Hello gnani!
+    <div className="flex justify-center">
+      <h1 className="text-white font-bold text-white bg-blue-700 p-10 m-10 shadow-lg border-2 ">
+      Certify
       </h1>
-    <div className= "customerBut">
+    </div>
+
+    <div className= "flex justify-center">
       <Link to="/customer">
-      <button > Customer </button>
+        <CustomerButton></CustomerButton>
       </Link>
-     </div>
-     <div className= "retailerBut">
-       <Link to="/retailer">
-       <button> Retailer </button>
-       </Link>
-     
-     </div>
+      <Link to="/retailer">
+        <RetailerButton></RetailerButton>
+      </Link>
      </div>
     </>
   )
