@@ -8,7 +8,6 @@ contract FPIS {
 
     //Product Structure
     struct Product {
-        uint id;
         string prod_name;
         string prod_desc;
         uint prod_code;
@@ -35,10 +34,9 @@ contract FPIS {
     //function to Create a Product in Block
     function createProduct(string memory _prodName, string memory _prodDesc, uint _prodCode) public {
         productCount ++;
-        products[productCount] = Product(productCount, _prodName, _prodDesc, _prodCode);
+        products[productCount] = Product( _prodName, _prodDesc, _prodCode);
         //Calling Event
         emit ProductCreated(productCount, _prodName, _prodDesc, _prodCode);
     }
-
     
 }
