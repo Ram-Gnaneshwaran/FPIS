@@ -2,9 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import CodePage from './code'
-import Verified from './verified'
-import ProductDetails from './product'
+import CodePage from '../pages/code'
+import Verified from '../pages/verified'
+import ProductDetails from '../pages/product'
+import './index.css'
 
 ReactDOM.render(
   <React.StrictMode>

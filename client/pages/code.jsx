@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function CodePage() {
   return (
       <>
-        <div className='CodeHeading'>
+        <div className="text-3xl font-bold underline">
             <h1>Enter the code</h1> 
         </div>
         <div className='barcode'>

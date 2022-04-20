@@ -1,5 +1,3 @@
-import { useState , useRef, useEffect} from "react"
-import { v4 as uuidv4 } from 'uuid'
 import { Link } from "react-router-dom"
 
 
@@ -8,7 +6,9 @@ function App() {
   return (
     <>
     <div className="logo">
-    <h1>Certify</h1>
+      <h1 className="text-3xl font-bold underline">
+      Hello gnani!
+      </h1>
     <div className= "customerBut">
       <Link to="/customer">
       <button > Customer </button>
