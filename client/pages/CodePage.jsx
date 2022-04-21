@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Input_Bar from '../src/components/Input_Bar'
+import Normal_Button from '../src/components/Normal_Button'
 
 export default function CodePage() {
   return (
@@ -15,14 +17,14 @@ export default function CodePage() {
           {/* Input  Contatiner */}
           <div className="flex justify-center mt-10 ">
             <div>
-              <input class=" py-5 pl-10 mx-10 shadow-xl focus:ring-2 focus:ring-blue-700 focus:outline-none w-min leading-6 text-slate-900 placeholder-slate-400 rounded-md text-4xl border-2" type="text" placeholder="Product Code"/>
+              <Input_Bar></Input_Bar>
             </div>
           </div>
 
           {/* Button  Contatiner */}
           <div className="flex justify-center ">
               <Link to="/verified">
-                <button className="px-10 py-5 my-5 text-black bg-white font-bold shadow-lg border-2 hover:rounded-3xl hover:bg-blue-700 hover:text-white transition-all duration-500">Check</button>
+                <Normal_Button title={"Check"}></Normal_Button>
               </Link>
             </div>
 

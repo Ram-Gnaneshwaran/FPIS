@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import CustomerButton from "./components/Button1"
-import RetailerButton from "./components/Button2"
+import CustomerButton from "./components/Customer_Button"
+import RetailerButton from "./components/Retailer_Button"
 
 
 function App() {
@@ -23,14 +23,14 @@ function App() {
         {/* Left Contatiner */}
         <div className="flex-auto justify-center border-black border-r-2 ">
           <Link to="/customer">
-            <CustomerButton></CustomerButton>
+            <CustomerButton title={"Customer"}></CustomerButton>
           </Link>
         </div>
 
         {/* Right Contatiner */}
         <div className="flex-auto border-black border-l-2">
           <Link to="/retailer">
-            <RetailerButton></RetailerButton>
+            <RetailerButton title={"Retailer"}></RetailerButton>
           </Link>
         </div>
       </div>      

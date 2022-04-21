@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import CodePage from '../pages/code'
-import Verified from '../pages/verified'
-import ProductDetails from '../pages/product'
+import CodePage from '../pages/CodePage'
+import Verified from '../pages/VerifiedPage'
+import ProductDetails from '../pages/ProductPage'
 import './index.css'
 
 ReactDOM.render(
