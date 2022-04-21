@@ -1,35 +1,52 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Normal_Button from '../src/components/Normal_Button'
+import Products_Bar from '../src/components/Products_Bar'
+
 
 
 export default function ProductDetails() {
   return (
       <>
-      <h1 className="text-center text-5xl font-bold mt-10 ">Enter Product Details</h1>
-      
-        <form className="flex flex-col p-10 m-10 border-4">
-        <div className="">
-          Product Name
-        <input className="" type="text" /> 
+      {/* Box Contatiner */}
+      <form className="flex flex-col p-10 m-10 border-8 ">
+
+        {/* Heading Contatiner */}
+        <div className="flex justify-center bg-black">
+          <h1 className="text-center text-5xl font-bold m-10 text-white ">Enter Product Details</h1>
         </div>
-         <div>
-          Description
-        <input type="text" /> 
+
+        {/* Input  Container */}
+        <div className="flex flex-col">
+
+          {/* Product Name */}
+          <div className="flex justify-center">
+            <Products_Bar title="Product Name"></Products_Bar>
+          </div>
+          
+          {/* Product Description */}
+          <div className="flex justify-center">
+          <Products_Bar title="Product Description"></Products_Bar>
+          </div>
+
+          {/* Product Code */}
+          <div className="flex justify-center">
+          <Products_Bar title="Product Code"></Products_Bar>
+          </div>
         </div>
-        <div>
-        Code
-        <input type="text" /> 
-        </div>
-        </form>
+
+      </form>
        
-       <div className="flex justify-center">
-       <Link to="/">
-        <button className="text-black bg-white font-bold px-10 py-5 m-10 shadow-lg border-2 hover:rounded-3xl hover:bg-blue-700 hover:text-white transition-all duration-500">Home</button>
-        </Link>
+       {/* Bottom Buttons */}
+       <div className="flex justify-evenly">
+
         <Link to="/">
-        <button className="text-black bg-white font-bold px-10 py-5 m-10 shadow-lg border-2 hover:rounded-3xl hover:bg-blue-700 hover:text-white transition-all duration-500">Submit</button>
+          <Normal_Button title="Home"></Normal_Button>
         </Link>
-      
+
+        <Link to="/">
+          <Normal_Button title="Submit"></Normal_Button>
+        </Link>
        </div>
       
       </>
