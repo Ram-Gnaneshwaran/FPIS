@@ -1,19 +1,41 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Normal_Button from '../src/components/Normal_Button'
 
 export default function Verified() {
+
+
   return (
       <>
-      <div className="flex flex-col justify-center p-20 m-20 border-8">
-        <h1 className="font-bold text-5xl text-center ">Verified</h1>
-        <div className="font-bold text-2xl">Product Name</div>
-        <div className='text-xl'>Body</div>
-        <div className="text-center">Product Code</div>
+      {/* Page Contatiner */}
+      <div className="flex justify-evenly p-20 mt-20 mx-10 border-8">
+
+        <div className="flex flex-col">
+          {/* Product Name */}
+          <div className="font-bold text-2xl">Product Name</div>
+
+          {/* Product Description */}
+          <div className='text-xl'>Body</div>
+
+          {/* Product Code */}
+          <div className="text-lg">Product Code</div>
+          
+        </div>    
+
+        {/* Verified Contatiner */}
+        <div className="flex">
+          <h1 className="font-bold text-5xl text-green-500">Verified</h1>
+        </div>
+    
+      </div>
+      
+      {/* Home Button Contatiner */}
+      <div className="flex justify-center">
+        <Link to="/">
+          <Normal_Button title="Home"></Normal_Button>
+        </Link>
       </div>
 
-      <Link to="/">
-        <button className="text-black bg-white font-bold px-10 py-5 m-10 shadow-lg border-2 hover:rounded-3xl hover:bg-blue-700 hover:text-white transition-all duration-500">Home</button>
-        </Link>
 
       </>
 
