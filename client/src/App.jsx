@@ -12,7 +12,7 @@ function App() {
 
       {/* Logo Container */}
       <div className="flex justify-center">
-        <h1 className="text-white font-bold text-white bg-blue-700 p-10 m-10 shadow-lg border-2 text-8xl">
+        <h1 className="text-white font-bold bg-blue-700 p-10 m-10 shadow-lg border-2 text-8xl">
         Certify
         </h1>
       </div>
