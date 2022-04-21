@@ -7,20 +7,35 @@ function App() {
   
   return (
     <>
-    <div className="flex justify-center">
-      <h1 className="text-white font-bold text-white bg-blue-700 p-10 m-10 shadow-lg border-2 ">
-      Certify
-      </h1>
+    {/* Page Contatiner */}
+    <div className="flex-auto flex-col mt-20 ">
+
+      {/* Logo Container */}
+      <div className="flex justify-center">
+        <h1 className="text-white font-bold text-white bg-blue-700 p-10 m-10 shadow-lg border-2 text-8xl">
+        Certify
+        </h1>
+      </div>
+
+      {/* Buttons Container*/}
+      <div className= "flex mt-20 ">
+
+        {/* Left Contatiner */}
+        <div className="flex-auto justify-center border-black border-r-2 ">
+          <Link to="/customer">
+            <CustomerButton></CustomerButton>
+          </Link>
+        </div>
+
+        {/* Right Contatiner */}
+        <div className="flex-auto border-black border-l-2">
+          <Link to="/retailer">
+            <RetailerButton></RetailerButton>
+          </Link>
+        </div>
+      </div>      
     </div>
 
-    <div className= "flex justify-center">
-      <Link to="/customer">
-        <CustomerButton></CustomerButton>
-      </Link>
-      <Link to="/retailer">
-        <RetailerButton></RetailerButton>
-      </Link>
-     </div>
     </>
   )
 }
