@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     {/* Page Contatiner */}
-    <div className="flex-auto flex-col mt-20 ">
+    <div className="flex flex-col mt-20 ">
 
       {/* Logo Container */}
       <div className="flex justify-center">
