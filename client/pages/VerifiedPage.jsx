@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import AlertComponent from '../src/components/AlertComponent'
 import Normal_Button from '../src/components/Normal_Button'
 
 export default function Verified() {
