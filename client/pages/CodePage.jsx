@@ -41,7 +41,7 @@ export default function CodePage() {
           {/* Input  Contatiner */}
           <div className="flex justify-center mt-10 ">
             <div>
-              <input class=" py-5 pl-10 mx-10 shadow-xl focus:ring-2 focus:ring-blue-700 focus:outline-none w-min leading-6 text-slate-900 placeholder-slate-400 rounded-md text-4xl border-2" type="text" placeholder="Product Code" ref={prodCode}/>
+              <input className=" py-5 pl-10 mx-10 shadow-xl focus:ring-2 focus:ring-blue-700 focus:outline-none w-min leading-6 text-slate-900 placeholder-slate-400 rounded-md text-4xl border-2" type="text" placeholder="Product Code" ref={prodCode}/>
             </div>
           </div>
 

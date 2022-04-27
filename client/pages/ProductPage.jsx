@@ -51,7 +51,7 @@ export default function ProductDetails() {
           {/* Product Name */}
           <div className="flex justify-center">
             <input 
-            class=" py-5 pl-10 mx-10 mt-5 shadow-xl focus:ring-2 focus:ring-blue-700 focus:outline-none w-min leading-6 text-slate-900 placeholder-slate-400 rounded-md text-2xl border-2" 
+            className=" py-5 pl-10 mx-10 mt-5 shadow-xl focus:ring-2 focus:ring-blue-700 focus:outline-none w-min leading-6 text-slate-900 placeholder-slate-400 rounded-md text-2xl border-2" 
             type="text" 
             placeholder="Product Name"
             ref={product_name}
@@ -61,7 +61,7 @@ export default function ProductDetails() {
           {/* Product Description */}
           <div className="flex justify-center">
           <input 
-            class=" py-5 pl-10 mx-10 mt-5 shadow-xl focus:ring-2 focus:ring-blue-700 focus:outline-none w-min leading-6 text-slate-900 placeholder-slate-400 rounded-md text-2xl border-2" 
+            className=" py-5 pl-10 mx-10 mt-5 shadow-xl focus:ring-2 focus:ring-blue-700 focus:outline-none w-min leading-6 text-slate-900 placeholder-slate-400 rounded-md text-2xl border-2" 
             type="text" 
             placeholder="Product Description"
             ref={product_desc}
@@ -71,7 +71,7 @@ export default function ProductDetails() {
           {/* Product Code */}
           <div className="flex justify-center">
           <input 
-            class=" py-5 pl-10 mx-10 mt-5 shadow-xl focus:ring-2 focus:ring-blue-700 focus:outline-none w-min leading-6 text-slate-900 placeholder-slate-400 rounded-md text-2xl border-2" 
+            className=" py-5 pl-10 mx-10 mt-5 shadow-xl focus:ring-2 focus:ring-blue-700 focus:outline-none w-min leading-6 text-slate-900 placeholder-slate-400 rounded-md text-2xl border-2" 
             type="text" 
             placeholder="Product Code"
             ref={product_code}
