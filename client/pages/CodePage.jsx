@@ -35,7 +35,7 @@ export default function CodePage() {
 
           {/* Heading Contatiner */}
           <div className=" flex justify-center text-white font-bold ">
-              <h1 className=" p-10 m-10 bg-blue-700 shadow-lg border-2 text-7xl text-center">Enter the code</h1> 
+              <h1 className=" p-10 m-10 bg-gradient-to-r from-cyan-500 to-blue-500 shadow-lg border-2 text-7xl text-center">Enter the code</h1> 
           </div>
 
           {/* Input  Contatiner */}

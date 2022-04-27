@@ -9,10 +9,10 @@ export default function Verified() {
   return (
       <>
       {/* Page Contatiner */}
-      <div className="flex justify-evenly p-20 mt-20 mx-10 border-8">
+      <div className="flex justify-evenly p-20 mt-20 mx-10 border-8 bg-gradient-to-r from-green-900 to-green-500">
 
         {/* Left Contatiner */}
-        <div className="flex flex-col pr-5">
+        <div className="flex flex-col pr-5 text-white">
           {/* Product Name */}
           <div className="font-bold text-2xl">Name : iPhone</div>
 
@@ -26,7 +26,7 @@ export default function Verified() {
 
         {/* Right Contatiner */}
         <div className="flex">
-          <h1 className="font-bold text-5xl text-green-500">Verified</h1>
+          <h1 className="font-bold text-5xl text-green-200">Verified</h1>
         </div>
     
       </div>
