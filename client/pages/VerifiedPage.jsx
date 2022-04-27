@@ -14,13 +14,13 @@ export default function Verified() {
         {/* Left Contatiner */}
         <div className="flex flex-col pr-5">
           {/* Product Name */}
-          <div className="font-bold text-2xl">Product Name</div>
+          <div className="font-bold text-2xl">Name : iPhone</div>
 
           {/* Product Description */}
-          <div className='text-xl'>Body</div>
+          <div className='text-2xl'>Description: Great Smartphone</div>
 
           {/* Product Code */}
-          <div className="text-lg">Product Code</div>
+          <div className="text-2xl">Code: 521340</div>
           
         </div>    
 

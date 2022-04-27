@@ -16,7 +16,7 @@ export default function CodePage() {
 
     const p_code = prodCode.current.value
 
-    if (p_code) {
+    if (p_code == '521340') {
       setAlert(false)
       setShowProduct(true)
     }
